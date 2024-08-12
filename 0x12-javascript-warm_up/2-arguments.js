@@ -1,10 +1,10 @@
 #!/usr/bin/node
 // Print if a condition is met
 
-if (process.argv.length == 2) {
-	console.log('No argument');
-} else if (process.argv.length == 3) {
-	console.log('Argument found');
+if (process.argv.length === 2) {
+  console.log('No argument');
+} else if (process.argv.length === 3) {
+  console.log('Argument found');
 } else {
-	console.log('Arguments found');
+  console.log('Arguments found');
 }

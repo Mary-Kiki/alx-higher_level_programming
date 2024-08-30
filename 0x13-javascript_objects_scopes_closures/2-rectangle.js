@@ -5,11 +5,8 @@ class Rectangle {
     if (Number.isInteger(w) && w > 0 && Number.isInteger(h) && h > 0) {
       this.width = w;
       this.height = h;
-    } else {
-      // Create an empty object if conditions are not met
-      this.width = undefined;
-      this.height = undefined;
     }
+    // If validation fails, width and height are not set
   }
 }
 
